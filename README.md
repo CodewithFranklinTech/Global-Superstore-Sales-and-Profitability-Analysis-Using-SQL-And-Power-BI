@@ -1,4 +1,4 @@
-#Project Title
+# Project Title
 Global Superstore Sales and Profitability Analysis Using SQL And Power BI
 
 #Project Overview
