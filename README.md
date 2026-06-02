@@ -158,12 +158,14 @@ The dashboards allow users to interactively explore sales performance, customer 
 
 ![Executive Overview](supersore_dashboards_page-0001.jpg)
 
-Executive Overview: Shows total sales, profit, and orders at a glance. Breaks down performance by category, region, and monthly trends to find top and low performing areas.
+# Executive Overview: 
+Shows total sales, profit, and orders at a glance. Breaks down performance by category, region, and monthly trends to find top and low performing areas.
 
 
 ![Customer Analysis](supersore_dashboards_page-0002.jpg)
 
-Customer Analysis: Lists top customers by sales and profit. Shows how different customer segments perform and lets you filter all charts by region or state.
+# Customer Analysis: 
+Lists top customers by sales and profit. Shows how different customer segments perform and lets you filter all charts by region or state.
 
 # Key Insights
 •	The business processed approximately 94,000 orders across multiple global markets.
