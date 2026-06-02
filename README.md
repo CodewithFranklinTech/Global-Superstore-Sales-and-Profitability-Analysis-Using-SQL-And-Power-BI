@@ -1,7 +1,7 @@
 # Project Title
 Global Superstore Sales and Profitability Analysis Using SQL And Power BI
 
-#Project Overview
+# Project Overview
 This project presents a comprehensive retail sales analysis using SQL for data cleaning, transformation, feature engineering, and business intelligence analysis, alongside Power BI for interactive dashboard development and reporting.
 The analysis was performed using a superstore sales dataset obtained from Kaggle containing customer information, product categories, sales transactions, profit data, shipping details, regional performance, and market-level business metrics.
 The primary objective of this project is to transform raw retail transaction data into meaningful business insights that support sales performance evaluation, customer analysis, profitability monitoring, market performance assessment, and executive decision-making.
@@ -18,17 +18,17 @@ This project demonstrates a complete end-to-end retail analytics workflow combin
 •	Dashboard development
 •	Executive-level reporting
 
-#Tools and Technologies Used
+# Tools and Technologies Used
 •	SQL (MySQL Workbench)
 •	Microsoft Power BI
 •	Kaggle Superstore Dataset
 •	DAX (Power BI Calculated Columns)
  
-#Dataset Description
+# Dataset Description
 Source: Superstore Sales Dataset obtained from Kaggle
 The dataset contains retail sales transaction records from a global superstore business. Each row represents an individual product purchase within a customer order.
 
-#Dataset Variables
+# Dataset Variables
 •	order_id: Unique order identifier
 •	order_date: Date order was placed
 •	ship_date: Date order was shipped
@@ -50,34 +50,35 @@ The dataset contains retail sales transaction records from a global superstore b
 •	order_priority: Order priority level
 •	year: Transaction year
 
-#Feature Engineering
+# Feature Engineering
 Additional analytical features were created during the analysis process.
 
-#SQL Engineered Features
+# SQL Engineered Features
 #profit_category
 Orders were classified into profitability groups:
 •	Loss: Profit below 0
 •	Low Profit: Profit between 0 and 100
 •	High Profit: Profit above 100
  
-#shipping_days
+# shipping_days
 Calculated using:
 ship_date − order_date
-#sales_segment
+
+# sales_segment
 Orders were classified into sales groups:
 •	Small Sale: Sales below 100
 •	Medium Sale: Sales between 100 and 500
 •	Large Sale: Sales above 500
 
-#Power BI Engineered Features
+# Power BI Engineered Features
 
-#customer_segment
+# customer_segment
 Customers were classified based on total customer sales:
 •	Low Value Customer
 •	Medium Value Customer
 •	High Value Customer
 
-#Data Cleaning Process
+# Data Cleaning Process
 The dataset was cleaned and validated using SQL. Cleaning tasks included:
 •	Inspecting table structure and data types
 •	Renaming incorrectly imported column names
@@ -91,7 +92,7 @@ The dataset was cleaned and validated using SQL. Cleaning tasks included:
 •	Validating engineered columns
 •	Performing sales and profitability quality checks
  
-#SQL Concepts Applied
+# SQL Concepts Applied
 This project applies both foundational and advanced SQL concepts.
 Core SQL Skills
 •	SELECT
@@ -105,7 +106,7 @@ Core SQL Skills
 •	Aggregate Functions
 •	UNION ALL
 
-#Advanced SQL Skills
+# Advanced SQL Skills
 •	Common Table Expressions (CTEs)
 •	Window Functions
 •	ROW_NUMBER()
@@ -118,7 +119,7 @@ Core SQL Skills
 •	Ranking Analysis
 •	Contribution Analysis
 
-#Business Questions Solved
+# Business Questions Solved
 The project answers several retail business intelligence questions, including:
 •	Which customers generate the highest sales revenue?
 •	Which sub-categories generate the highest profit?
@@ -131,10 +132,10 @@ The project answers several retail business intelligence questions, including:
 •	How are customers distributed across value segments?
 •	What are the overall sales, profit, order, and customer metrics?
 
-#Power BI Dashboard
+# Power BI Dashboard
 Interactive Power BI dashboards were developed to communicate business insights visually.
 
-#Page 1 – Sales Performance Dashboard
+# Page 1 – Sales Performance Dashboard
 Visualizations:
 •	Total Orders KPI
 •	Total Customers KPI
@@ -144,7 +145,7 @@ Visualizations:
 •	Sales Trend Over Time
 •	Region Slicer
 
-#Page 2 – Customer & Market Analysis Dashboard
+# Page 2 – Customer & Market Analysis Dashboard
 Visualizations:
 •	Top 10 Customers by Sales
 •	Customers by Region
@@ -154,16 +155,16 @@ Visualizations:
 •	Region Slicer
 The dashboards allow users to interactively explore sales performance, customer behaviour, regional trends, and market opportunities.
 
-![Executive Overview](images/supersore_dashboards_page-0001.jpg)
+![Executive Overview](supersore_dashboards_page-0001.jpg)
 
 Executive Overview: Shows total sales, profit, and orders at a glance. Breaks down performance by category, region, and monthly trends to find top and low performing areas.
 
 
-![Customer Analysis](images/supersore_dashboards_page-0002.jpg)
+![Customer Analysis](supersore_dashboards_page-0002.jpg)
 
 Customer Analysis: Lists top customers by sales and profit. Shows how different customer segments perform and lets you filter all charts by region or state.
 
-#Key Insights
+# Key Insights
 •	The business processed approximately 94,000 orders across multiple global markets.
 •	Total profit generated was approximately 7.57K, indicating positive overall business performance.
 •	A small group of customers contributed a disproportionately large share of total sales revenue.
@@ -175,12 +176,12 @@ Customer Analysis: Lists top customers by sales and profit. Shows how different 
 •	Shipping performance varied across shipping modes, creating opportunities for operational improvement.
 •	Regional sales trends fluctuated over time, highlighting periods of stronger and weaker business performance.
 
-#Conclusion
+# Conclusion
 The analysis demonstrates how SQL and Power BI can be combined to transform retail transaction data into actionable business intelligence insights.
 Using SQL, the project successfully cleaned, transformed, and analysed sales data using both foundational and advanced analytical techniques.
 Using Power BI, the project transformed analytical outputs into visually interactive dashboards suitable for executive reporting and strategic decision-making.
 
-#Recommendations
+# Recommendations
 •	Focus retention efforts on top-performing customers to maximize long-term revenue.
 •	Review discount strategies to balance sales growth and profitability.
 •	Expand successful products and categories that consistently generate strong profit margins.
@@ -189,13 +190,13 @@ Using Power BI, the project transformed analytical outputs into visually interac
 •	Improve shipping efficiency for slower delivery methods to enhance customer experience.
 •	Use customer segmentation insights to create targeted marketing campaigns.
 
-#Project Files
+# Project Files
 This repository contains:
 •	SQL analysis scripts
 •	Power BI dashboard file
 •	Exported business reports
 •	Project documentation
 
-#Author
+# Author
 Franklin Chisom
 Junior Data Analyst | Aspiring Data Scientist | SQL, Power BI, Python, and R Enthusiast
