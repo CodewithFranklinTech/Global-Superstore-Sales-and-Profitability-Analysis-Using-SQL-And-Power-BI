@@ -54,7 +54,8 @@ The dataset contains retail sales transaction records from a global superstore b
 Additional analytical features were created during the analysis process.
 
 # SQL Engineered Features
-#profit_category
+
+# profit_category
 Orders were classified into profitability groups:
 •	Loss: Profit below 0
 •	Low Profit: Profit between 0 and 100
