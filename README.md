@@ -202,4 +202,4 @@ This repository contains:
 
 # Author
 Franklin Chisom
-Junior Data Analyst | Aspiring Data Scientist | SQL, Power BI, Python, and R Enthusiast
+Data Analyst | SQL, Power BI, Python, and R Enthusiast
